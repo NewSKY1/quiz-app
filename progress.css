@@ -1,0 +1,26 @@
+/* ─── PROGRESS PAGE EXTRAS ─── */
+
+.stat-sub {
+  font-size: .8rem;
+  color: var(--text-mute);
+  margin-top: 2px;
+}
+
+.target-icon {
+  background: transparent !important;
+  width: 64px !important;
+  height: 64px !important;
+  border-radius: 0 !important;
+}
+
+.target-icon svg {
+  width: 64px !important;
+  height: 64px !important;
+  color: #b0bdd6;
+}
+
+.courses-box .empty-state p {
+  color: var(--text-mute);
+  font-size: .9rem;
+  margin-bottom: 0;
+}

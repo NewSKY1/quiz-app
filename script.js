@@ -18,4 +18,4 @@ dz.addEventListener('drop', e => {
   dz.classList.remove('drag-over');
   const file = e.dataTransfer.files[0];
   if (file) dz.querySelector('span').textContent = '✓ ' + file.name;
-});
+}); 
